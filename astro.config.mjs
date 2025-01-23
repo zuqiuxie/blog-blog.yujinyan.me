@@ -18,7 +18,7 @@ const __dirname = path.dirname(__filename);
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://blog.yujinyan.me',
+  site: 'https://www.wangbin.run',
   integrations: [mdx(), sitemap(), tailwind(), solidJs()],
   vite: {
     resolve: {
